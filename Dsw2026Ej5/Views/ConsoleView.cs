@@ -131,6 +131,7 @@ public class ConsoleView
             Console.Write("|");
             CentrarTexto(vehiculo.GetKmARecorrer().ToString(), out l, ancho - 1, false);
             Console.Write("".PadRight(ancho - 1 - l));
+            Console.Write("\n");
         }
     }
 }
